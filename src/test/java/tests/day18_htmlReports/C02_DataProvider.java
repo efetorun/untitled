@@ -45,5 +45,7 @@ public class C02_DataProvider {
         Assert.assertTrue(actualSonucYazisi.contains(aranacakKelime));
 
         Driver.closeDriver();
+
+        //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
     }
 }
