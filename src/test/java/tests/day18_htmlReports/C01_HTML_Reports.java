@@ -18,6 +18,7 @@ public class C01_HTML_Reports extends TestBaseRapor {
         // amazona gidelim
         Driver.getDriver().get(ConfigReader.getProperty("amazonUrl"));
         extentTest.info("Amazon anasayfaya gidildi");
+
         // Nutella aratalim
         AmazonPage amazonPage= new AmazonPage();
         amazonPage.amazonAramaKutusu.sendKeys("Kutella" + Keys.ENTER);
